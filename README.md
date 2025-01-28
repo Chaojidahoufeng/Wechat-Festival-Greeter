@@ -47,8 +47,6 @@ OPENAI_BASE_URL = "https://api.deepseek.com"  # 若使用OpenAI官方，可改�
 MODEL_NAME = "deepseek-chat"                  # 或者使用 "gpt-3.5-turbo" 等
 ```
 
-> 请勿将敏感信息（如 API Key）直接暴露到公共仓库中，可改用环境变量或其他安全方案。
-
 ### 4. 运行应用
 
 ```bash
