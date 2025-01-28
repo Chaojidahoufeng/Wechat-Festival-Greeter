@@ -52,7 +52,7 @@ MODEL_NAME = "deepseek-chat"                  # 或者使用 "gpt-3.5-turbo" 等
 ### 4. 运行应用
 
 ```bash
-streamlit run app.py
+streamlit run main.py
 ```
 
 - 首次运行时，会在终端输出一个访问链接，默认为 [http://localhost:8501](http://localhost:8501)  
