@@ -16,7 +16,7 @@ def generate_greeting(friend_name, relationship):
     """
 
     prompt = f"""
-        你是一位智能助理，现在需要根据与好友的聊天上下文，以及他们的关系，为好友“{friend_name}”生成一段温暖的新年祝福。注意，今年是{YEAR_TYPE}
+        你是一位智能助理，现在需要根据用户与好友的关系，为好友“{friend_name}”生成一段温暖的新年祝福。注意，今年是{YEAR_TYPE}
         关系类型：{relationship}
         要求：
         1. 内容积极向上，适合日常微信交流风格。

@@ -2,9 +2,8 @@
 
 import os
 
-# 这里为了演示，直接写在代码中，不建议把密钥直接暴露在代码中！
 # 实际使用中请从环境变量或其他安全存储中读取
-OPENAI_API_KEY = "sk-9ff896d22bf44b75966b429170103851"
+OPENAI_API_KEY = "sk-xxxxxxxxxxx"
 OPENAI_BASE_URL = "https://api.deepseek.com"
 
 MODEL_NAME = "deepseek-chat"
