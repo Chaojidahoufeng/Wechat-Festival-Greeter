@@ -105,4 +105,3 @@ my_wechat_agent/
 根据你项目的实际情况选择相应的开源或商业授权协议。通常，可以使用 [MIT License](https://mit-license.org/) 等。
 
 如有疑问或改进建议，欢迎在 Issues 中讨论，感谢你的使用！
-```
