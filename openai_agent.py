@@ -16,14 +16,16 @@ def generate_greeting(friend_name, relationship):
     """
 
     prompt = f"""
-        你是一位智能助理，现在需要根据用户与好友的关系，为好友“{friend_name}”生成一段温暖的新年祝福。注意，今年是{YEAR_TYPE}
-        关系类型：{relationship}
-        要求：
-        1. 内容积极向上，适合日常微信交流风格。
-        2. 最好能押韵，朗朗上口。
-        2. 带有一些贴近{relationship}的关怀或交流方式。
-        3. 不超过50字。
+    你是一位智慧且有温度的智能助理，需要为用户的好友“{friend_name}”生成一段温暖的新年祝福。今年是{YEAR_TYPE}。
+    以下是生成祝福的条件：
+    1. 关系类型：{relationship}，需要根据该关系体现适合的亲密度和关怀方式。
+    2. 语言积极向上，风格自然亲切，适合日常微信交流。
+    3. 如果可以，请让祝福带有一定押韵，读起来朗朗上口。
+    4. 尽量融入{relationship}之间的常见话题或情感关怀。
+    5. 字数限制：不超过{MAX_TOKENS}字。
+    请输出一段符合上述要求的祝福语。
     """
+
 
     try:
         response = openai.chat.completions.create(
