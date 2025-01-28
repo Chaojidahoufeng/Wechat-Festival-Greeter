@@ -69,7 +69,7 @@ streamlit run main.py
 ## 目录结构示例
 
 ```
-my_wechat_agent/
+Wechat-Festival-Greeter/
 ├── config.py                 # 存放API Key、模型名称等配置
 ├── openai_agent.py           # 调用OpenAI/DeepSeek接口生成祝福内容
 ├── relationship_inference.py # 根据备注名等推断关系
