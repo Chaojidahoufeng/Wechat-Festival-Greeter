@@ -20,6 +20,7 @@ def generate_greeting(friend_name, relationship):
         关系类型：{relationship}
         要求：
         1. 内容积极向上，适合日常微信交流风格。
+        2. 最好能押韵，朗朗上口。
         2. 带有一些贴近{relationship}的关怀或交流方式。
         3. 不超过50字。
     """

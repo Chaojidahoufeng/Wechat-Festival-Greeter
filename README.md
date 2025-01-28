@@ -55,7 +55,7 @@ MODEL_NAME = "deepseek-chat"                  # 或者使用 "gpt-3.5-turbo" 等
 streamlit run main.py
 ```
 
-- 首次运行时，会在终端输出一个访问链接，默认为 [http://localhost:8501](http://localhost:8501)  
+- 首次运行时，会在终端输出一个访问链接，默认为 [http://localhost:8501](http://localhost:8501) (这一步可能会花2min左右) 
 - 在浏览器中打开该链接后，会自动触发 itchat 的登录流程；  
   - 如果 `hotReload=True`，短期内可以无需重复扫码。
 
