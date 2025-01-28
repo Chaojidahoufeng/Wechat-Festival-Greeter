@@ -1,4 +1,3 @@
-```markdown
 # WeChat Greeting with Streamlit
 
 这是一个基于 [Streamlit](https://streamlit.io/) 的微信祝福工具，使用 [itchat](https://github.com/littlecodersh/ItChat) 来登录并获取好友列表，结合 LLM（OpenAI/DeepSeek 接口）自动生成祝福语后发送给指定好友。你可以对生成的文案进行手动编辑，并可自定义与好友之间的关系，从而生成更贴切的祝福内容。
@@ -14,7 +13,6 @@
 5. **祝福语可编辑**：用户可在生成后对文案进行二次调整、个性化修改。
 6. **一键发送**：完成编辑后，可点击 “发送” 按钮，将文案发送至指定好友。
 
----
 
 ## 快速开始
 
