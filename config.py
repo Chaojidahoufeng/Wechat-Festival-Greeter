@@ -1,5 +1,5 @@
 # 实际使用中请从环境变量或其他安全存储中读取
-OPENAI_API_KEY = "sk-xxxxxxxx" #  api key
+OPENAI_API_KEY = "sk-xxxxx1" #  api key
 OPENAI_BASE_URL = "https://api.deepseek.com"
 
 MODEL_NAME = "deepseek-chat"
